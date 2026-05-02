@@ -3,10 +3,27 @@
 <head>
   <title>Redirecionando...</title>
 
-  <!-- Redirecionamento direto -->
-  <meta http-equiv="refresh" content="1; url=https://wa.me/553798332874?text=Olá,%20vim%20pelo%20anúncio%20sobre%20manutenção%20de%20áreas%20externas%20para%20empresas%20e%20gostaria%20de%20um%20orçamento.">
-</head>
+  <!-- Google tag -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18135214714"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
+    gtag('config', 'AW-18135214714');
+
+    // Dispara conversão
+    gtag('event', 'conversion', {
+      'send_to': 'AW-18135214714/Y0cyC0maqqt7cEPrUxcdD'
+    });
+
+    // Redireciona para WhatsApp
+    setTimeout(function(){
+      window.location.href = "https://wa.me/5537998332874?text=Olá,%20vim%20pelo%20anúncio%20sobre%20manutenção%20de%20áreas%20externas%20para%20empresas";
+    }, 1000);
+  </script>
+
+</head>
 <body>
   <p>Redirecionando para o WhatsApp...</p>
 </body>
